@@ -35,3 +35,169 @@ a{
 /*----------------------------
 Component
 ----------------------------*/
+
+/*HEADER*/
+
+header{
+    background-color:#34495E;
+    height:200px;
+    color:white;
+}
+
+header .wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+header h1{
+    font-size:9.6rem;
+    font-weight:black;
+    letter-spacing:32.5px;
+    margin-top:42px;
+}
+
+/*QUOTE*/
+
+h2{
+    font-family: "Lato", serif;
+    font-weight:100;
+    font-size:4.8rem;
+    color:black;
+    letter-spacing:3.5px;
+    margin:0px;
+}
+
+.droite{
+    text-align:right;
+}
+
+.quote{
+    background-color:white;
+    padding-top:56px;
+}
+
+/*ARTICLES*/
+
+.regle{
+    background-color:white;
+    padding-top:63px;
+}
+
+.rond{
+    height:210px;
+    width:210px;
+    border-color:#D35400;
+    border-style:solid;
+    border-radius:100%;
+    border-width:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#D35400;
+    font-family: "Quicksand", serif;
+    font-size:3rem;
+    font-weight:bold;
+}
+
+article{
+    padding-left:49px;
+    padding-right:49px;
+}
+
+article p{
+    font-family: "Quicksand", serif;
+    font-weight:400;
+    font-size:3.6rem;
+}
+
+article:hover{
+    background-color:#BDC3C7;
+}
+
+.a1{
+    display:flex;
+    align-items:center;
+    gap:67px;
+}
+
+.a2{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:51px;
+}
+
+.a3{
+
+    display:flex;
+    align-items:center;
+    gap:66px;
+}
+
+.a4{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:32px;
+}
+
+/*GRID*/
+
+.grid p{
+    font-weight:400;
+    font-size:2rem;
+}
+
+.grid .wrapper{
+    display:grid;
+    grid-template-columns:471px 471px;
+    gap:60px;
+}
+
+.grid{
+    background-color:white;
+    line-height:40px;
+    padding-top:12px;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color:#2980B9;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+footer p{
+    font-weight:bold;
+    font-size:2rem;
+    margin:0px;
+}
+
+footer .wrapper{
+    display:flex;
+    align-items:center;
+    gap:891px;
+}
+
+.material-symbols-outlined{
+    color:black;
+}
+
+.petitRond{
+    height:50px;
+    width:50px;
+    border-color:#BDC3C7;
+    background-color:white;
+    border-style:solid;
+    border-radius:100%;
+    border-width:3px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:3rem;
+}
+
